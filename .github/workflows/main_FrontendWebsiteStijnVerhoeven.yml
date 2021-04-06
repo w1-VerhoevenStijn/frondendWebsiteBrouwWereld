@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - FrontendWebsiteStijnVerhoeven
+name: Build and deploy Node.js app to Azure Web App - FrondendWebsite
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -23,7 +23,7 @@ jobs:
         path: .
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: build
     environment:
       name: 'production'
@@ -39,7 +39,8 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'FrontendWebsiteStijnVerhoeven'
+        app-name: 'FrondendWebsite'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3cb7abd50a8f439696af7ed7299273d5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_44a01c38a1904daa842fdc8155fcfdad }}
         package: .
+© 2021 GitHub, Inc.
