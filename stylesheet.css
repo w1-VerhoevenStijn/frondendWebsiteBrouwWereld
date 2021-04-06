@@ -1,0 +1,236 @@
+/* ===================Index========================== */
+
+@font-face {
+  font-family: Poppins;
+  src: url(/Fonts/Poppins-Regular.ttf);
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 100%;
+}
+.products-grid {
+  border-radius: 25px;
+  box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.07);
+  padding: 20px;
+  width: 250px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-25 {
+  width: 25%;
+}
+.footer {
+  width: 100%;
+  max-width: 980px;
+  color: #502b03;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 150px;
+  padding-left: 150px;
+  background-color: #2d1b15;
+  border: 1px solid #979797;
+  height: 1%;
+}
+.table {
+  padding-top: 150px;
+  margin-right: 0px !important;
+  background-color: linen;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.footerlogo {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footertext {
+  font-family: Poppins;
+  color: #ffffff;
+  text-align: center;
+}
+.product h2 {
+  text-align: center;
+}
+.container-tophome {
+  background-color: linen;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.container {
+  width: 100%;
+  max-width: 980px;
+  color: #502b03;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sizerow {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  min-height: 100px;
+}
+.column-50 {
+  width: 45%;
+  margin-right: 5%;
+}
+.column-25 {
+  width: 25%;
+  margin-right: 5%;
+}
+.column-100 {
+  width: 100%;
+}
+.menu {
+  position: absolute;
+  color: #502b03;
+  font-size: 105%;
+  font-weight: bold;
+  top: 15px;
+}
+.menu ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.menu ul li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 6.5%;
+  z-index: 1;
+}
+.menu ul li a {
+  color: #2d1b15;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+#active {
+  border-bottom: 5px solid #ce812b;
+}
+.main {
+  background-color: #f9f1e8;
+  width: 75%;
+  height: 80%;
+  position: absolute;
+  top: 12.8%;
+  left: 12.1%;
+  -webkit-box-shadow: inset 10px 10px 7px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 10px 10px 7px -10px rgba(0, 0, 0, 0.1);
+}
+.mainText {
+  position: absolute;
+  top: 16%;
+  left: 10.5%;
+  width: 35%;
+}
+h2 {
+  font-size: 225%;
+  font-weight: 300;
+}
+.name {
+  font-weight: 800;
+}
+.mainText p {
+  text-decoration-thickness: 5px;
+  text-decoration-color: red;
+}
+.buttonOverOns {
+  position: absolute;
+  background-color: #f3b75c;
+  z-index: 1;
+  width: 7%;
+  border-radius: 40px;
+  padding-left: 1.5%;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+.MeerProducten {
+  width: 10%;
+  margin-left: 19%;
+}
+.buttonOverOns a {
+  font-weight: 1000;
+  font-size: large;
+  margin-right: 10%;
+  -webkit-box-shadow: outset 10px 10px 7px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: outset 10px 10px 7px -10px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #502b03;
+}
+.shoppingBag {
+  width: 150%;
+  border-radius: 25px;
+  background-color: #f3b75c;
+  padding-left: 80%;
+  padding-bottom: 40%;
+  padding-top: 40%;
+  padding-right: 30%;
+}
+.bag {
+  border-radius: 25px;
+  background-color: #f3b75c;
+  width: 15%;
+  padding-left: 8%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  padding-right: 3%;
+  float: right;
+}
+.products-grid h3 {
+  width: 80%;
+}
+.OnzeProducten {
+  padding-left: 5%;
+}
+hr {
+  margin-left: 5%;
+}
+#filter {
+  font-weight: 900;
+}
+.item {
+  margin-left: 5%;
+}
+.items {
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.05) inset;
+  -webkit-box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.05) inset;
+  -moz-box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.05) inset;
+}
+input[type="text"] {
+  background-color: linen;
+  height: 61px;
+  width: 458px;
+  box-sizing: border-box;
+  height: 61px;
+  width: 458px;
+  border: 1px solid rgba(80, 43, 3, 0.3);
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  padding-left: 5%;
+}
+::placeholder {
+  height: 28px;
+  width: 88px;
+  color: #502b03;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 28px;
+}
+#opmerking {
+  height: 128px;
+  width: 458px;
+}
